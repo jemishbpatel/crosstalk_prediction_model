@@ -4,8 +4,8 @@ import cv2
 #import utils
 import os
 
-data = pd.read_csv('D_396_H_127.csv')  # path of the .csv file#print(data.shape)  # to check the shape
-image = np.zeros((2160, 3840,3), np.uint8)  # empty matrix
+data = pd.read_csv('D_366_H_127.csv')  # path of the .csv file#print(data.shape)  # to check the shape
+image = np.zeros((556, 1039,3), np.uint8)  # empty matrix
 
 white = [255,255,255]
 count = 0  # initialize counter

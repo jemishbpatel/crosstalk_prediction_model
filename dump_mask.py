@@ -16,7 +16,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", help = "path to the image")
 args = vars(ap.parse_args())
 
-image_file = "D_366_H_127.jpg"
+image_file = args[ "image" ]
 file_to_store = image_file[ :-4] + ".csv"
 image = cv2.imread(image_file)
 #	image = cv2.resize(image, ( 3840, 2160 ) )

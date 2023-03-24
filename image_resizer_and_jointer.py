@@ -11,7 +11,6 @@ ap.add_argument("-r", "--resize", help = "resize resolution")
 ap.add_argument("-o", "--outputimage", help = "output image name")
 args = vars(ap.parse_args())
 
-print( len( sys.argv ))
 if len(sys.argv) < 9:
 	ap.print_help( sys.stderr )
 	sys.exit( 1 )
